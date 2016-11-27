@@ -1,0 +1,11 @@
+Hello
+this is our project.
+Tugas dari pak hatma:
+0. isi = https://docs.google.com/spreadsheets/d/17qPJKZySBrlBVRcKTxX7nVpBrHhwt_f18itjL9XYRI8/edit#gid=0
+
+1. lakukan sprint planning, daily scrum, dst s/d sprint review/retrospective (rekam video, tambahkan di playlist YOUTUBE)..
+
+2. utk para developer: gunakan github/bitbucket utk bekerja, penilaian individu, progress harian. 
+jika pagi hari anda melakukan daily scrum, pastikan anda commit&push hasil kerja anda, jika tidak, maka anda dianggap tidak bekerja.
+
+3. pastikan selasa minggu depan, sudah jadi produk incremen, yg sudah di test (dokumentasi proses&hasil testing di upload di share ITS)
