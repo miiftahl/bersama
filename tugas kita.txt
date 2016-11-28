@@ -9,3 +9,5 @@ Tugas dari pak hatma:
 jika pagi hari anda melakukan daily scrum, pastikan anda commit&push hasil kerja anda, jika tidak, maka anda dianggap tidak bekerja.
 
 3. pastikan selasa minggu depan, sudah jadi produk incremen, yg sudah di test (dokumentasi proses&hasil testing di upload di share ITS)
+
+//
