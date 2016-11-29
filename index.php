@@ -11,10 +11,17 @@
     <link href="css/main.css" rel="stylesheet" media="screen">
   </head>
   <body>
-    <div class="container">
+    <div class="container" align="center">
       <div class="form-signin">
         <div class="alert alert-success">You have been <strong>successfully logged in</strong>.</div>
-        <a href="login/logout.php" class="btn btn-default btn-lg btn-block">Logout</a>
+        <a href="login/logout.php" class="btn btn-default btn-lg btn-block" style="width = 400 px;">Logout</a>
+      </div>
+    </div> <!-- /container -->
+    <br>
+    </br>
+    <div class="home" align="center" >
+      <div class="home-signin">
+        <a href="index.html" class="btn btn-default btn-lg btn-block" style="width = 400px;"">Home</a>
       </div>
     </div> <!-- /container -->
   </body>

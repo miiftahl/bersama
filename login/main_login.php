@@ -5,7 +5,9 @@ if (isset($_SESSION['username'])) {
 }
 ?>
 <!DOCTYPE html>
+
 <html lang="en">
+
   <head>
     <meta charset="utf-8">
     <title>Login</title>
@@ -15,11 +17,12 @@ if (isset($_SESSION['username'])) {
     <link href="../css/main.css" rel="stylesheet" media="screen">
   </head>
 
-  <body>
-    <div class="container">
+  <body background="images/clock.jpg" style="background-size: 75%;">
+
+    <div class="container" style="width:400px; height:768px;float:right;text-align:left;margin-top:0px; padding-top:120px; background-color:white;">
 
       <form class="form-signin" name="form1" method="post" action="checklogin.php">
-        <h2 class="form-signin-heading">Please sign in</h2>
+        <h2 class="form-signin-heading">LOGIN</h2>
         <input name="myusername" id="myusername" type="text" class="form-control" placeholder="Username" autofocus>
         <input name="mypassword" id="mypassword" type="password" class="form-control" placeholder="Password">
         <!-- The checkbox remember me is not implemented yet...
@@ -27,7 +30,7 @@ if (isset($_SESSION['username'])) {
           <input type="checkbox" value="remember-me"> Remember me
         </label>
         -->
-        <button name="Submit" id="submit" class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+        <button name="Submit" id="submit" class="btn btn-lg btn-primary btn-block" type="submit" style="width: 100; float: right;">Masuk</button>
 
         <div id="message"></div>
       </form>
