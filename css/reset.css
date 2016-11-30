@@ -54,6 +54,10 @@
         background:transparent;
         color: #ffffff;
     }
+    webkit-input-placeholder { /* For WebKit browsers */
+    color:    #dd3333;
+                font-family:Helvetica Neue;
+                font-weight:bold;
 
     /* change colours to suit your needs */
     ins {
