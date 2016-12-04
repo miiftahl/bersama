@@ -34,59 +34,63 @@
 
 		<section class="caption">
 		
-		<!-- contact -->
-		<section id="section-contact" class="section appear clearfix">
-			<div class="container">
-				
-				<div class="row mar-bot40">
-					<div class="col-md-offset-3 col-md-6">
-						<div class="section-header">
-						<p class="cap_title">INPUT DATA </p>
-							<p>Silahkan Input Data di Bawah Ini</p>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2">
-						<div class="cform" id="contact-form">
-							<div id="sendmessage">
-								 Your data has been save. Thank you!
-							</div>
-                            <div id="errormessage"></div>
-							<form action="" method="post" role="form" class="contactForm">
-							  <div class="form-group">
-								<label for="name">Mata Kuliah</label>
-								<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-								<div class="validation"></div>
-							  </div>
-							  <div class="form-group">
-								<label for="Nama Dosen">Dosen</label>
-								<input type="text" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-								<div class="validation"></div>
-							  </div>
-							  <div class="form-group">
-								<label for="subject">Ruang</label>
-								<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-								<div class="validation"></div>
-							  </div>
-							  <div class="form-group">
-								<label for="subject">Hari</label>
-								<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-								<div class="validation"></div>
-							  </div>
-							  <div class="form-group">
-								<label for="subject">Sesi</label>
-								<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-								<div class="validation"></div>
-							  </div>
-							 
-							   
-							  
-							  <button type="submit" class="btn btn-theme pull-left">SAVE DATA</button>
-							</form>
+		<div id="inputdata-form">
+	<div>
+		<h1>INPUT DATA</h1> 
+		<h4>Silahkan Input data Jadwal</h4> 
+	</div>
+		<p id="failure">Oops...data tidak tersimpan.</p>  
+		<p id="success">Data tersimpan</p>
 
-						</div>
-					</div>
+		   <form method="post" action="/">
+			<div>
+		      <label for="matakuliah">
+		      	<span class="required">Mata Kuliah : *</span> 
+		      	<input type="text" id="name" name="matkul" value="" placeholder="Mata Kuliah" required="required" tabindex="1" autofocus="autofocus" />
+		      </label> 
+			</div>
+			<div>
+		      <label for="Dosen">
+		      	<span class="required">Dosen       : *</span>
+		      	<input type="text" id="dosen" name="dosen" value="" placeholder="Nama Dosen" tabindex="2" required="required" />
+		      </label>  
+			</div>
+         <div>
+		      <label for="ruang">
+		      	<span class="required">Ruang       : *</span> 
+		      	<input type="text" id="ruang" name="ruang" value="" placeholder="Ruang Kuliah" required="required" tabindex="1" autofocus="autofocus" />
+		      </label> 
+			</div>
+		      <label for="hari">
+			<div>		          
+		      <span>Hari : </span>
+			      <select id="hari" name="hari" tabindex="5">   
+			         <option value="senin">Senin</option>
+			         <option value="selasa">Selasa</option>  
+              <option value="rabu">Rabu</option> 
+              <option value="kamis">Kamis</option> 
+              <option value="kamis">Kamis</option> 
+              <option value="jumat">Jumat</option> 
+        </select>
+		      </label>
+			</div>
+         <label for="sesi">
+			<div>		          
+		      <span>Sesi :</span>
+			      <select id="sesi" name="sesi" tabindex="4">   
+			         <option value="1">1</option>
+			         <option value="2">2</option>  
+              <option value="3">3</option> 
+              <option value="4">4</option>
+        </select>
+		      </label>
+			</div>
+			<div>		           
+		      <button name="submit" type="submit" id="submit" >SAVE</button> 
+			</div>
+		   </form>
+
+	</div>
 					<!-- ./span12 -->
 		</section>
 	</section><!-- Billboard End -->
